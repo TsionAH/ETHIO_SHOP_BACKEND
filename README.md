@@ -200,25 +200,25 @@ http://localhost:5000
 ### **Register**
 
 ```
-POST /api/users/register
+POST /products/users/register
 ```
 
 ### **Login**
 
 ```
-POST /api/users/login
+POST /products/users/login
 ```
 
 ### **Get User Profile (Auth required)**
 
 ```
-GET /api/users/:id
+GET /products/users/:id
 ```
 
 ### **Update User Profile**
 
 ```
-PUT /api/users/:id
+PUT /products/users/:id
 ```
 
 ---
@@ -228,31 +228,31 @@ PUT /api/users/:id
 ### **Get All Products**
 
 ```
-GET /api/products
+GET /products/products
 ```
 
 ### **Get Product by ID**
 
 ```
-GET /api/products/:id
+GET /products/products/:id
 ```
 
 ### **Create Product (Admin only)**
 
 ```
-POST /api/products
+POST /products/products
 ```
 
 ### **Update Product (Admin only)**
 
 ```
-PUT /api/products/:id
+PUT /products/products/:id
 ```
 
 ### **Delete Product (Admin only)**
 
 ```
-DELETE /api/products/:id
+DELETE /products/products/:id
 ```
 
 ---
@@ -262,31 +262,31 @@ DELETE /api/products/:id
 ### **Create Order**
 
 ```
-POST /api/orders
+POST /products/orders
 ```
 
 ### **Get All Orders (Admin)**
 
 ```
-GET /api/orders
+GET /products/orders
 ```
 
 ### **Get Order by ID**
 
 ```
-GET /api/orders/:id
+GET /products/orders/:id
 ```
 
 ### **Update Order Status (Admin)**
 
 ```
-PUT /api/orders/:id
+PUT /products/orders/:id
 ```
 
 ### **Cancel Order**
 
 ```
-DELETE /api/orders/:id
+DELETE /products/orders/:id
 ```
 
 ---
@@ -296,13 +296,13 @@ DELETE /api/orders/:id
 ### **Submit Rating**
 
 ```
-POST /api/ratings
+POST /products/ratings
 ```
 
 ### **Get Ratings for Product**
 
 ```
-GET /api/products/:id/ratings
+GET /products/products/:id/ratings
 ```
 
 ---
@@ -312,25 +312,25 @@ GET /api/products/:id/ratings
 ### **List Tiers**
 
 ```
-GET /api/loyalty-tiers
+GET /products/loyalty-tiers
 ```
 
 ### **Admin: Create Tier**
 
 ```
-POST /api/loyalty-tiers
+POST /products/loyalty-tiers
 ```
 
 ### **Admin: Update Tier**
 
 ```
-PUT /api/loyalty-tiers/:id
+PUT /products/loyalty-tiers/:id
 ```
 
 ### **Admin: Delete Tier**
 
 ```
-DELETE /api/loyalty-tiers/:id
+DELETE /products/loyalty-tiers/:id
 ```
 
 ---
@@ -340,13 +340,13 @@ DELETE /api/loyalty-tiers/:id
 ### **Record Payment**
 
 ```
-POST /api/payments
+POST /products/payments
 ```
 
 ### **Get Payment Details**
 
 ```
-GET /api/payments/:id
+GET /products/payments/:id
 ```
 
 ---
@@ -363,8 +363,8 @@ https://ethio-shop-backend.onrender.com
 
 ### **3. Start with:**
 
-- Register → `POST /api/users/register`
-- Login → `POST /api/users/login`
+- Register → `POST /products/users/register`
+- Login → `POST /products/users/login`
 
 ### **4. Copy JWT Token**
 
