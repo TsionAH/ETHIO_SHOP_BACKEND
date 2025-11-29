@@ -6,7 +6,9 @@ from rest_framework.decorators import action
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
+
 CHAPA_SECRET_KEY = 'YOUR_CHAPA_SECRET_KEY'
+
 from .serializers import (
     UserSerializer, NoteSerializer, ProductSerializer,
     CartItemSerializer, AddToCartSerializer, OrderSerializer
