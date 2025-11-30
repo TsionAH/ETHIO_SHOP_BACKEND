@@ -6,6 +6,8 @@ from .views import ProductViewSet, CartViewSet, MaterialViewSet
 from products.views import CreateUserView 
 from rest_framework.routers import DefaultRouter
 
+
+
 router = DefaultRouter()
 # router.register(r'cart', CartViewSet, basename='cart')
 router.register(r'', ProductViewSet, basename='products')
